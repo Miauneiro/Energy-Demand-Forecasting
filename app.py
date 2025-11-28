@@ -296,18 +296,28 @@ st.markdown(f"""
         color: {text_main} !important;
         background-color: {card_bg} !important;
     }}
-    /* Time picker dropdown */
+    /* Time picker dropdown options - all possible selectors */
     .stTimeInput div[role="listbox"] {{
         background-color: {card_bg} !important;
+    }}
+    .stTimeInput div[role="listbox"] * {{
         color: {text_main} !important;
     }}
     .stTimeInput div[role="option"] {{
         color: {text_main} !important;
+        background-color: {card_bg} !important;
+    }}
+    .stTimeInput div[role="option"]:hover {{
+        background-color: {border_color} !important;
     }}
     .stTimeInput div[data-baseweb="select"] {{
         color: {text_main} !important;
     }}
     .stTimeInput div[data-baseweb="select"] > div {{
+        color: {text_main} !important;
+        background-color: {card_bg} !important;
+    }}
+    .stTimeInput ul li {{
         color: {text_main} !important;
         background-color: {card_bg} !important;
     }}
