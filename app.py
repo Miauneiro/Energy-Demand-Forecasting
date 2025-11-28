@@ -296,6 +296,21 @@ st.markdown(f"""
         color: {text_main} !important;
         background-color: {card_bg} !important;
     }}
+    /* Time picker dropdown */
+    .stTimeInput div[role="listbox"] {{
+        background-color: {card_bg} !important;
+        color: {text_main} !important;
+    }}
+    .stTimeInput div[role="option"] {{
+        color: {text_main} !important;
+    }}
+    .stTimeInput div[data-baseweb="select"] {{
+        color: {text_main} !important;
+    }}
+    .stTimeInput div[data-baseweb="select"] > div {{
+        color: {text_main} !important;
+        background-color: {card_bg} !important;
+    }}
     
     /* Date input fix too */
     .stDateInput > label {{
