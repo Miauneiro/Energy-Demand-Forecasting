@@ -288,6 +288,24 @@ st.markdown(f"""
         color: {text_main} !important;
     }}
     
+    /* Time input fix - make text visible in both modes */
+    .stTimeInput > label {{
+        color: {text_main} !important;
+    }}
+    .stTimeInput input {{
+        color: {text_main} !important;
+        background-color: {card_bg} !important;
+    }}
+    
+    /* Date input fix too */
+    .stDateInput > label {{
+        color: {text_main} !important;
+    }}
+    .stDateInput input {{
+        color: {text_main} !important;
+        background-color: {card_bg} !important;
+    }}
+    
     /* Tables */
     .dataframe {{
         color: {text_main};
