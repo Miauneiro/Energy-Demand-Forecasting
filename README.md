@@ -1,5 +1,7 @@
 # Energy Demand Forecasting Platform
 
+**[🔴 Live Demo](https://energy-demand-forecasting.streamlit.app)** 
+
 Professional electricity demand forecasting system using deep learning (LSTM) for 24-hour predictions.
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
