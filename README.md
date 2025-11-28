@@ -1,4 +1,4 @@
-# ⚡ Energy Demand Forecasting Platform
+# Energy Demand Forecasting Platform
 
 Professional electricity demand forecasting system using deep learning (LSTM) for 24-hour predictions.
 
@@ -7,9 +7,9 @@ Professional electricity demand forecasting system using deep learning (LSTM) fo
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.29-FF4B4B.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🎯 Project Overview
+## Project Overview
 
-This platform provides accurate 24-hour electricity demand forecasts using a 4-layer LSTM neural network. Built for energy traders, grid operators, and strategic planners to optimize operations and decision-making.
+This platform provides an accurate 24-hour electricity demand forecast using a 4-layer LSTM neural network. Built for energy traders, grid operators, and strategic planners to optimize operations and decision-making.
 
 ### Key Results
 - **Validation Loss:** 0.001581 (MSE)
@@ -18,7 +18,7 @@ This platform provides accurate 24-hour electricity demand forecasts using a 4-l
 - **Parameters:** 1.86M
 - **Hardware:** NVIDIA GTX 1050 (2GB VRAM)
 
-## 🚀 Features
+## Features
 
 - **Multiple Forecast Horizons:** 24-hour, 1-week, and 1-month predictions
 - **Business Context:** Role-based recommendations for optimal forecast selection
@@ -26,7 +26,7 @@ This platform provides accurate 24-hour electricity demand forecasts using a 4-l
 - **Production Ready:** Optimized for deployment and real-world use
 - **GPU Accelerated:** 73% VRAM utilization on GTX 1050
 
-## 📊 Model Architecture
+## Model Architecture
 
 ```
 Input: (batch, 168, 13) - 1 week of temporal features
@@ -46,7 +46,7 @@ Output: (batch, 24, 1) - 24-hour forecast
 **Dropout:** 30%  
 **Activation:** tanh (LSTM), Linear (output)
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.11+
@@ -68,7 +68,7 @@ conda activate energy-forecasting
 pip install -r requirements.txt --break-system-packages
 ```
 
-## 📖 Usage
+## Usage
 
 ### 1. Train the Model
 
@@ -104,7 +104,7 @@ The Streamlit app provides:
 - **Model Performance:** View training metrics and validation results
 - **Documentation:** Technical specifications and usage guide
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 energy-demand-forecasting/
@@ -138,7 +138,7 @@ energy-demand-forecasting/
     └── exploratory_analysis.ipynb
 ```
 
-## 🎓 Model Details
+## Model Details
 
 ### Input Features (13)
 - **Target:** demand_mw
@@ -163,7 +163,7 @@ energy-demand-forecasting/
 | Training Time | 80.9 minutes |
 | Expected MAPE | < 2.5% |
 
-## 🌐 Deployment
+## Deployment
 
 ### Streamlit Cloud
 
@@ -180,7 +180,7 @@ energy-demand-forecasting/
 streamlit run app.py --server.port 8501
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Key hyperparameters can be adjusted in `train.py`:
 
@@ -196,7 +196,7 @@ config = {
 }
 ```
 
-## 📈 Use Cases
+## Use Cases
 
 ### 24-Hour Forecast
 - Day-ahead energy market trading
@@ -216,34 +216,29 @@ config = {
 - Budget forecasting
 - **Accuracy:** ±5-8% MAPE
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request
 
-## 📝 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **João Manero**  
-Meteorology Student | Aspiring Data Scientist  
+Meteorology Student | Data Scientist  
 Universidade de Lisboa
 
-📧 [Your Email]  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-🌐 [Portfolio](https://yourportfolio.com)
+📧 joaofteixeiramanero@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/joão-manero/)  
+🌐 [GitHub](https://www.linkedin.com/in/joão-manero/)
 
-## 🙏 Acknowledgments
 
-- Built as part of portfolio development for data science roles
-- Optimized for production deployment and stakeholder communication
-- Designed with business value and user experience in mind
-
-## 📊 Screenshots
+## Screenshots
 
 ### Forecast Dashboard
 ![Forecast Dashboard](screenshots/dashboard.png)
